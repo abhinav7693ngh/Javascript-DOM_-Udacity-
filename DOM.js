@@ -28,6 +28,6 @@ document.querySelector('.test').addEventListener('click', (event) => {
     console.log('Listener of paragraph tag : capturing ', event.target);
 }, true);
 
-document.getElementById('mybtn').addEventListener('click',(event)=>{
-    console.log('Listener of target button : bubbling ', event.target);
-});
+// document.getElementById('mybtn').addEventListener('click',(event)=>{
+//     console.log('Listener of target button : bubbling ', event.target);
+// });
